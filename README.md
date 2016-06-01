@@ -27,7 +27,7 @@ or
 
 ----------
 
-## SERVER SOFTWARE, CONFIGURATIONS AND CHANGES MADE
+## KEY TASKS AND PROCESS OF CONFIGURATION
 
 A summary of the key actions, software and procedures I used during configuration of the Ubuntu Linux distribution was as follows:
 
