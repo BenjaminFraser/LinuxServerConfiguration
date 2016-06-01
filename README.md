@@ -45,7 +45,7 @@ A summary of the key actions, software and procedures I used during configuratio
 
 7. Generated an SSH key pair on my local machine using `ssh-keygen`, and copied the produced public key (.pub file)
 
-8. Logged into the server as grader, using `ssh -v grader@52.36.82.174 -p 2200, and copied the key to a new file called authorized_keys within grader's .ssh/ directory on the remote server.
+8. Logged into the server as grader, using `ssh -v grader@52.36.82.174 -p 2200`, and copied the key to a new file called authorized_keys within grader's .ssh/ directory on the remote server.
 
 9. Modified the `/etc/ssh/sshd_config` to `PasswordAuthentication no`, so that only two factor authentication can be used to access the server. Also prevened root login through modification of `PermitRootLogin` to `no`. Source - [Udacity](https://www.udacity.com/course/configuring-linux-web-servers--ud299).
 
